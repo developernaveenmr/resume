@@ -1,0 +1,269 @@
+body {
+    display: flexbox;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4%;
+}
+
+.header {
+    background-color: antiquewhite;
+    
+}
+.projectheader {
+    margin-top:3%;
+    background-color: antiquewhite;
+    
+}
+
+.scard {
+    display: inline-flex;
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(180, 175, 169);
+    border-radius: 5%;
+    margin: 2%;
+
+}
+
+.scard:hover {
+    scale: 115%;
+    background-color: rgb(209, 172, 133);
+}
+
+.project-sec {
+    padding: 3%;
+    width: 90%;
+    display: inline-block;
+}
+.inner {
+    width: 35%;
+    display: inline-block;
+    padding: 2%;
+    
+}
+.inner img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1rem solid violet;
+    border-radius: 2%;
+    
+}
+.head1 {
+    background-color: rgb(206, 204, 197);
+    width: 100%;
+    text-emphasis-color: black;
+
+}
+
+.navigation {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(63, 70, 177);
+    padding: 1%;
+}
+
+nav div a {
+    color: bisque;
+    font-size: 150%;
+    border: 2cm;
+    border-radius: 2%;
+    box-sizing: border-box;
+    border-color: black;
+    margin-left: 50px;
+    text-decoration: none;
+    opacity: 5;
+    text-size-adjust: large;
+
+}
+
+nav div a:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+nav div h2 {
+    font-size: 300%;
+    color: greenyellow;
+}
+
+nav div {
+    display: inline-block;
+    width: 48%;
+
+}
+
+.body {
+    padding-left: 20%;
+    width: 90%;
+    display: flexbox;
+}
+
+.body1 {
+    font-size: 125%;
+    color: darkblue;
+    width: auto;
+    margin-top: 2%;
+    display: inline-block;
+    margin-right: 25%;
+
+}
+
+.body1 img {
+    border-radius: 22%;
+    width: 300;
+    animation: rotation 10s infinite linear;
+    
+}
+
+.body1 img:hover {
+    
+    background-color: rgb(209, 172, 133);
+    
+
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.body button {
+    border: none;
+    background-color: aqua;
+    padding: 2%;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+.body button:hover {
+    opacity: 10;
+}
+
+.about {
+    width: 100%;
+    text-shadow: 2%;
+    background-color: antiquewhite;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.education {
+    font-size: 140%;
+    color: orchid;
+    padding-left: 5%;
+    width: 95%;
+    
+}
+
+.eduinfo {
+    font-size: 140%;
+    color: blueviolet;
+    padding: 2%;
+    margin: 2%;
+    width: 25%;
+    display: inline-block;
+    border: 18%;
+    border-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.eduinfo h3 {
+    color: #87bdd8;
+    text-align: center;
+}
+
+.eduinfo h2 {
+    padding-left: 20%;
+}
+
+.educontainer {
+    width: 100%;
+}
+
+.language h2 {
+    color: orchid;
+    font-size: 170%;
+    padding-left: 5%;
+}
+
+.languagecontainer ul {
+    color: blue;
+    font-size: 120%;
+    padding-left: 10%;
+    margin-bottom: 3%;
+}
+
+.footer {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.footercontact {
+    display: inline-block;
+    color: beige;
+    width: 45%;
+    text-align: left;
+    margin-left: 4%;
+}
+
+.footercontact a {
+    color: bisque;
+}
+
+nav div img {
+    margin-right: 2%;
+}
+
+.footercontact h3 {
+    font-size: 140%;
+    color: greenyellow;
+}
+
+.footercontact h2 {
+    font-size: 140%;
+    color: yellow;
+}
+html{
+    scroll-behavior: smooth;
+}  
+.project-sec h2{
+    font-size: 180%;
+}
+.inner:nth-child(2){
+    margin-left: 20%;
+   
+}
+.skill h3{
+    color: floralwhite;
+}
+.inner h2{
+    size: 150%;
+}
+.links pic{
+    display: inline-block;
+
+}
+
+ .softcard{
+    display: inline;
+ }  
+
+.softskil{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.softcard img{
+    margin-bottom:2% ;
+}
+.softcard h2{
+    color:rgb(88, 88, 236) ;
+
+}
